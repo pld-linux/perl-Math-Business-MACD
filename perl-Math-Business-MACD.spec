@@ -8,13 +8,15 @@
 Summary:	Math::Business::MACD - Perl extension for calculating MACDs
 Summary(pl):	Math::Business::MACD - rozszerzenie Perla do obliczania MACD
 Name:		perl-Math-Business-MACD
-Version:	1.01
+Version:	1.10
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	perl-Math-Business-EMA >= 1.05
+%if %{?_without_tests:0}%{!?_without_tests:1}
+BuildRequires:	perl-Math-Business-EMA >= 1.06
+%endif
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
