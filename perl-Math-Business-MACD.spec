@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Math
-%define		pnam	Business-MACD
+%define	pdir	Math
+%define	pnam	Business-MACD
 Summary:	Math::Business::MACD - Perl extension for calculating MACDs
 Summary(pl):	Math::Business::MACD - rozszerzenie Perla do obliczania MACD
 Name:		perl-Math-Business-MACD
