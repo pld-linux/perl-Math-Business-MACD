@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Business-MACD
 Summary:	Math::Business::MACD - Perl extension for calculating MACDs
-Summary(pl.UTF-8):   Math::Business::MACD - rozszerzenie Perla do obliczania MACD
+Summary(pl.UTF-8):	Math::Business::MACD - rozszerzenie Perla do obliczania MACD
 Name:		perl-Math-Business-MACD
 Version:	1.10
 Release:	2
